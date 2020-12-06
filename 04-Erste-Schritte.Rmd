@@ -268,7 +268,7 @@ leute[["name"]]
 leute[["alter"]]
 ```
 
-<small>Das mit den "Levels" wird im Abschnitt zu [Datentypen] erklärt</small>
+<small>Das mit den "Levels" wird im Abschnitt zu [Datentypen] erklärt</small> # Die Levels Zeilen werden nicht mehr ausgegeben, mit den aktuellen Programmversionen.
 
 Was wir hier benutzen nennt sich *Subsetting*, also im Grunde nur einen Teil von etwas rausholen. Hier also einen Teil der Tabelle on Form einer einzelnen Spalte.  
 Spalten können wir mit `$` oder `[[ ]]` direkt aus einem `data.frame` ansteuern, was unser Leben gleich viel einfacher macht. Strenggenommen sidn `$` und `[[` auch eigene Funktionen, aber dazu vielleicht später mehr, im Moment ist für uns nur wichtig, dass wir einzelne Spalten (Variablen) einer Tabelle (`data.frame`) einfach adressieren und genauso behandeln können wie die einzelnen Variablen `name` und `alter`, die wir weiter oben erstellt haben.
